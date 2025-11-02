@@ -39,6 +39,7 @@ body {
   text-decoration: none;
   color: #fff;
   border-bottom: none;
+  font-size: 1.2rem;
 }
 .navbar .nav-menu a:hover {
   color: #1744c2;
@@ -141,7 +142,7 @@ body {
   #hamburger-menu {
     display: inline-block;
   }
-  .navbar .navbar-nav {
+  .navbar .nav-menu {
     position: absolute;
     top: 100%;
     right: -100%;
@@ -150,20 +151,20 @@ body {
     height: 100vh;
     transition: 0.3s;
   }
-  .navbar .navbar-nav.active {
+  .navbar .nav-menu .active {
     right: 0;
   }
-  .navbar .navbar-nav a {
+  .navbar .nav-menu a {
     color: var(--bg);
     display: block;
     margin: 1.5rem;
     padding: 0.5rem;
     font-size: 2rem;
   }
-  .navbar .navbar-nav a::after {
+  .navbar .nav-menu a::after {
     transform-origin: 0 0;
   }
-  .navbar .navbar-nav a:hover:after {
+  .navbar .nav-menu a:hover:after {
     transform: scaleX(0.2);
   }
   .about .row {
